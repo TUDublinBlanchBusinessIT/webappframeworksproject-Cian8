@@ -17,3 +17,11 @@ Route::get('/', function () {
 
 
 Route::resource('patients', 'patientsController');
+
+Route::resource('doctors', 'doctorsController');
+
+Route::resource('nurses', 'nursesController');
+
+Route::resource('wards', 'wardsController');
+
+Route::resource('registers', 'registerController');
