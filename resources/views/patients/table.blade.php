@@ -4,9 +4,9 @@
 
         <thead>
             <tr>
-                <th>Firstname</th>
+                <th>First name</th>
         <th>Surname</th>
-        <th>Dateofbirth</th>
+        <th>Date of birth</th>
         <th>Symptoms</th>
         <th>Location</th>
                 <th colspan="3">Action</th>

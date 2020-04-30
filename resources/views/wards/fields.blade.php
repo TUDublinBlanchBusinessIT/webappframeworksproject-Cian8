@@ -1,12 +1,8 @@
 <!-- Ward Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('Ward', 'Ward:') !!}
-    <label class="checkbox-inline">
-        {!! Form::hidden('Ward', 0) !!}
-        {!! Form::checkbox('Ward', '1', null) !!}
-    </label>
+    {!! Form::text('Ward', null, ['class' => 'form-control']) !!}
 </div>
-
 
 <!-- Numofpatients Field -->
 <div class="form-group col-sm-6">

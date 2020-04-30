@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model as Model;
 /**
  * Class wards
  * @package App\Models
- * @version April 29, 2020, 1:39 pm UTC
+ * @version April 30, 2020, 4:29 pm UTC
  *
  * @property \Illuminate\Database\Eloquent\Collection $nurses
- * @property boolean $Ward
+ * @property string $Ward
  * @property integer $NumofPatients
  * @property integer $DoctorsonDuty
  * @property integer $NursesonDuty
@@ -40,7 +40,7 @@ class wards extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'Ward' => 'boolean',
+        'Ward' => 'string',
         'NumofPatients' => 'integer',
         'DoctorsonDuty' => 'integer',
         'NursesonDuty' => 'integer'

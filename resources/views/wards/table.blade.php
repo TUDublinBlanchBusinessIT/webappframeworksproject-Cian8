@@ -3,9 +3,9 @@
         <thead>
             <tr>
                 <th>Ward</th>
-        <th>Numofpatients</th>
-        <th>Doctorsonduty</th>
-        <th>Nursesonduty</th>
+        <th>Num of patients</th>
+        <th>Doctors on duty</th>
+        <th>Nurses on duty</th>
                 <th colspan="3">Action</th>
             </tr>
         </thead>

@@ -4,10 +4,10 @@
 	
         <thead>
             <tr>
-                <th>Doctorid</th>
-        <th>Firstname</th>
+                <th>Doctor id</th>
+        <th>First name</th>
         <th>Surname</th>
-        <th>Dateofbirth</th>
+        <th>Date of birth</th>
         <th>Feild</th>
         <th>Salary</th>
         <th>Employement</th>

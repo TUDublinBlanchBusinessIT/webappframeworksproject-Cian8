@@ -3,12 +3,12 @@
         <thead>
             <tr>
                 <th>Id</th>
-        <th>Firstname</th>
+        <th>First name</th>
         <th>Surname</th>
-        <th>Dateofbirth</th>
+        <th>Date of birth</th>
         <th>Occupation</th>
         <th>Employement</th>
-        <th>Dateofregistartion</th>
+        <th>Date of registration</th>
                 <th colspan="3">Action</th>
             </tr>
         </thead>
