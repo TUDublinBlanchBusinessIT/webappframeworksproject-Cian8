@@ -1,5 +1,7 @@
 <div class="table-responsive">
+
     <table class="table" id="patients-table">
+
         <thead>
             <tr>
                 <th>Firstname</th>

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>InfyOm Generator</title>
+    <title>Covid Hospital</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
     <!-- Bootstrap 3.3.7 -->
@@ -46,6 +46,24 @@
                 </a>
                 <!-- Navbar Right Menu -->
                 <div class="navbar-custom-menu">
+				<!-- Right Side Of Navbar -->
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Authentication Links -->
+					<li><a href="http://localhost:8000/doctors" ><button id="Doctors" href="http://localhost:8000/doctors" onclick="http://localhost:8000/doctors" type="button" class="btn btn-primary navbar-btn center-block">Doctor's</button></a></li> 
+					<li><a href="http://localhost:8000/nurses" ><button id="Nurses" href="http://localhost:8000/nurses" onclick="http://localhost:8000/nurses" type="button" class="btn btn-primary navbar-btn center-block">Nurse's</button></a></li> 
+					<li><a href="http://localhost:8000/wards" ><button id="Wards" href="http://localhost:8000/wards" onclick="http://localhost:8000/wards" type="button" class="btn btn-primary navbar-btn center-block">Wards</button></a></li> 
+					<li><a href="http://localhost:8000/patients" ><button id="Patients" href="http://localhost:8000/patients" onclick="http://localhost:8000/patients" type="button" class="btn btn-primary navbar-btn center-block">Patients</button></a></li>
+					<li><a href="http://localhost:8000/registers" ><button id="Registers" href="http://localhost:8000/registers" onclick="http://localhost:8000/registers" type="button" class="btn btn-primary navbar-btn center-block">Registry</button></a></li> 
+					<li><a href="http://localhost:8000/logout" ><button id="logout" href="http://localhost:8000/logout" onclick="http://localhost:8000/logout" type="button" class="btn btn-primary navbar-btn center-block">Logout</button></a></li> 
+					
+					
+					
+                           
+			   </ul>
+            </div>
+        </div>
+    </nav>
+
                     <ul class="nav navbar-nav">
                         <!-- User Account Menu -->
                         <li class="dropdown user user-menu">
@@ -118,7 +136,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    InfyOm Generator
+                    Covid Hospital
                 </a>
             </div>
 
@@ -131,9 +149,16 @@
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
-                    <li><a href="{{ url('/login') }}">Login</a></li>
-                    <li><a href="{{ url('/register') }}">Register</a></li>
-                </ul>
+					<li><a href="http://localhost:8000/doctors" ><button id="Doctors" href="http://localhost:8000/doctors" onclick="http://localhost:8000/doctors" type="button" class="btn btn-primary navbar-btn center-block">Doctor's</button></a></li> 
+					<li><a href="http://localhost:8000/nurses" ><button id="Nurses" href="http://localhost:8000/nurses" onclick="http://localhost:8000/nurses" type="button" class="btn btn-primary navbar-btn center-block">Nurse's</button></a></li> 
+					<li><a href="http://localhost:8000/wards" ><button id="Wards" href="http://localhost:8000/wards" onclick="http://localhost:8000/wards" type="button" class="btn btn-primary navbar-btn center-block">Wards</button></a></li> 
+					<li><a href="http://localhost:8000/patients" ><button id="Patients" href="http://localhost:8000/patients" onclick="http://localhost:8000/patients" type="button" class="btn btn-primary navbar-btn center-block">Patients</button></a></li>
+					<li><a href="http://localhost:8000/registers" ><button id="Registers" href="http://localhost:8000/registers" onclick="http://localhost:8000/registers" type="button" class="btn btn-primary navbar-btn center-block">Registry</button></a></li> 
+					<li><a href="#Logout">Logout</a></li> 
+					
+					
+                           
+			   </ul>
             </div>
         </div>
     </nav>

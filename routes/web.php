@@ -25,3 +25,9 @@ Route::resource('nurses', 'nursesController');
 Route::resource('wards', 'wardsController');
 
 Route::resource('registers', 'registerController');
+
+Auth::routes();
+
+Route::get('logout', 'Auth\LoginController@logout')->name('logout');
+
+Route::get('/home','patientsController@index')->name('home');

@@ -1,5 +1,7 @@
+
 <div class="table-responsive">
     <table class="table" id="doctors-table">
+	
         <thead>
             <tr>
                 <th>Doctorid</th>
