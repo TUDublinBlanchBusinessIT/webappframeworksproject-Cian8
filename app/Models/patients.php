@@ -19,10 +19,10 @@ use Illuminate\Database\Eloquent\Model as Model;
 class patients extends Model
 {
 
-    public $table = 'patients';
+    //public $table = 'patients';
     
-    const CREATED_AT = 'created_at';
-    const UPDATED_AT = 'updated_at';
+    //const CREATED_AT = 'created_at';
+   // const UPDATED_AT = 'updated_at';
 
 
 

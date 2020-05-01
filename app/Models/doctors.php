@@ -21,10 +21,10 @@ use Illuminate\Database\Eloquent\Model as Model;
 class doctors extends Model
 {
 
-    public $table = 'doctors';
+  //  public $table = 'doctors';
     
-    const CREATED_AT = 'created_at';
-    const UPDATED_AT = 'updated_at';
+   // const CREATED_AT = 'created_at';
+   // const UPDATED_AT = 'updated_at';
 
 
 
