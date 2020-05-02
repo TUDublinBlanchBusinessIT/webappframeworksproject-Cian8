@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Covid Hospital</title>
 	
+		<body style = "background: url(https://mcdn.wallpapersafari.com/medium/47/35/R1oS3j.jpg) ; background-size: 100%;">
+	</body>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">

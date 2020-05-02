@@ -2,11 +2,11 @@
     <table class="table" id="nurses-table">
         <thead>
             <tr>
-                <th>Ward id</th>
-        <th>Nurse id</th>
-        <th>First name</th>
+                <th>Wardid</th>
+        <th>Nurseid</th>
+        <th>Firstname</th>
         <th>Surname</th>
-        <th>Date of birth</th>
+        <th>Dateofbirth</th>
         <th>Salary</th>
         <th>Employement</th>
                 <th colspan="3">Action</th>

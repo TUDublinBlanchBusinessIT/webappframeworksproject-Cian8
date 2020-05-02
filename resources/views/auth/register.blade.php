@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Covid Hospital | Registration Page</title>
+	
+	<body style = "background: url(https://mcdn.wallpapersafari.com/medium/47/35/R1oS3j.jpg) ; background-size: 100%;">
+	</body>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -38,10 +41,6 @@
         <a href="{{ url('/home') }}"><b>Covid </b>Hospital</a>
     </div>
 	
-	<div>
-            <img style="background-image" src="images/hospital.jpg">
-			<div style="background-image: url('images/hospital.jpg');">
-        </div>
 
     <div class="register-box-body">
         <p class="login-box-msg">Register a new employee</p>
