@@ -39,7 +39,8 @@
     </div>
 	
 	<div>
-            <img class="responsive" src="images/hospital.jpg" width="100%" height="200">
+            <img style="background-image" src="images/hospital.jpg">
+			<div style="background-image: url('images/hospital.jpg');">
         </div>
 
     <div class="register-box-body">

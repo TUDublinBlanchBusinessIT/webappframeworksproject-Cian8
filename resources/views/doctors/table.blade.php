@@ -1,13 +1,11 @@
-
 <div class="table-responsive">
     <table class="table" id="doctors-table">
-	
         <thead>
             <tr>
-                <th>Doctor id</th>
-        <th>First name</th>
+                <th>Doctorid</th>
+        <th>Firstname</th>
         <th>Surname</th>
-        <th>Date of birth</th>
+        <th>Dateofbirth</th>
         <th>Feild</th>
         <th>Salary</th>
         <th>Employement</th>

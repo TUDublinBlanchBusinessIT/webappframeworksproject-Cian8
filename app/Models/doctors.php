@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model as Model;
 /**
  * Class doctors
  * @package App\Models
- * @version April 29, 2020, 1:39 pm UTC
+ * @version May 2, 2020, 3:51 pm UTC
  *
  * @property \App\Models\Patient $doctorid
  * @property integer $Doctorid
@@ -21,10 +21,10 @@ use Illuminate\Database\Eloquent\Model as Model;
 class doctors extends Model
 {
 
-  //  public $table = 'doctors';
+    public $table = 'doctors';
     
-   // const CREATED_AT = 'created_at';
-   // const UPDATED_AT = 'updated_at';
+    const CREATED_AT = 'created_at';
+    const UPDATED_AT = 'updated_at';
 
 
 
