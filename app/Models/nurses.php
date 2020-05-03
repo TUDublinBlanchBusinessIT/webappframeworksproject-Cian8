@@ -7,9 +7,8 @@ use Illuminate\Database\Eloquent\Model as Model;
 /**
  * Class nurses
  * @package App\Models
- * @version May 2, 2020, 8:57 pm UTC
+ * @version May 3, 2020, 7:53 pm UTC
  *
- * @property integer $Wardid
  * @property string $firstname
  * @property string $surname
  * @property string $dateofbirth
@@ -28,7 +27,6 @@ class nurses extends Model
 
 
     public $fillable = [
-        'Wardid',
         'firstname',
         'surname',
         'dateofbirth',
@@ -42,8 +40,7 @@ class nurses extends Model
      * @var array
      */
     protected $casts = [
-        'Wardid' => 'integer',
-        'Nurseid' => 'integer',
+        'id' => 'integer',
         'firstname' => 'string',
         'surname' => 'string',
         'dateofbirth' => 'date',

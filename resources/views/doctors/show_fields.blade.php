@@ -1,9 +1,3 @@
-<!-- Doctorid Field -->
-<div class="form-group">
-    {!! Form::label('Doctorid', 'Doctorid:') !!}
-    <p>{{ $doctors->Doctorid }}</p>
-</div>
-
 <!-- Firstname Field -->
 <div class="form-group">
     {!! Form::label('firstname', 'Firstname:') !!}

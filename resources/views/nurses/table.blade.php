@@ -2,8 +2,7 @@
     <table class="table" id="nurses-table">
         <thead>
             <tr>
-                <th>Wardid</th>
-        <th>Firstname</th>
+                <th>Firstname</th>
         <th>Surname</th>
         <th>Dateofbirth</th>
         <th>Salary</th>
@@ -14,8 +13,7 @@
         <tbody>
         @foreach($nurses as $nurses)
             <tr>
-                <td>{{ $nurses->Wardid }}</td>
-            <td>{{ $nurses->firstname }}</td>
+                <td>{{ $nurses->firstname }}</td>
             <td>{{ $nurses->surname }}</td>
             <td>{{ $nurses->dateofbirth }}</td>
             <td>{{ $nurses->Salary }}</td>

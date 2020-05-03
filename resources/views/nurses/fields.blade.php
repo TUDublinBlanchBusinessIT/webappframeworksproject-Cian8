@@ -1,9 +1,3 @@
-<!-- Wardid Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('Wardid', 'Wardid:') !!}
-    {!! Form::number('Wardid', null, ['class' => 'form-control']) !!}
-</div>
-
 <!-- Firstname Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('firstname', 'Firstname:') !!}
@@ -25,7 +19,7 @@
 @push('scripts')
     <script type="text/javascript">
         $('#dateofbirth').datetimepicker({
-            format: 'YYYY-MM-DD HH:mm:ss',
+            format: 'YYYY-MM-DD',
             useCurrent: false
         })
     </script>

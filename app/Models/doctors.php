@@ -7,10 +7,8 @@ use Illuminate\Database\Eloquent\Model as Model;
 /**
  * Class doctors
  * @package App\Models
- * @version May 2, 2020, 3:51 pm UTC
+ * @version May 3, 2020, 8:10 pm UTC
  *
- * @property \App\Models\Patient $doctorid
- * @property integer $Doctorid
  * @property string $firstname
  * @property string $surname
  * @property string $dateofbirth
@@ -30,7 +28,6 @@ class doctors extends Model
 
 
     public $fillable = [
-        'Doctorid',
         'firstname',
         'surname',
         'dateofbirth',
@@ -45,7 +42,7 @@ class doctors extends Model
      * @var array
      */
     protected $casts = [
-        'Doctorid' => 'integer',
+        'id' => 'integer',
         'firstname' => 'string',
         'surname' => 'string',
         'dateofbirth' => 'date',
@@ -63,11 +60,5 @@ class doctors extends Model
         
     ];
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     **/
-    public function doctorid()
-    {
-        return $this->belongsTo(\App\Models\Patient::class, 'Doctorid');
-    }
+    
 }

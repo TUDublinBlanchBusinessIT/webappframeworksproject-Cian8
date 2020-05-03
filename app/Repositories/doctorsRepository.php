@@ -8,7 +8,7 @@ use App\Repositories\BaseRepository;
 /**
  * Class doctorsRepository
  * @package App\Repositories
- * @version May 2, 2020, 3:51 pm UTC
+ * @version May 3, 2020, 8:10 pm UTC
 */
 
 class doctorsRepository extends BaseRepository
@@ -17,7 +17,6 @@ class doctorsRepository extends BaseRepository
      * @var array
      */
     protected $fieldSearchable = [
-        'Doctorid',
         'firstname',
         'surname',
         'dateofbirth',

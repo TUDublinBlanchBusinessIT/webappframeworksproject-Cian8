@@ -2,8 +2,7 @@
     <table class="table" id="doctors-table">
         <thead>
             <tr>
-                <th>Doctorid</th>
-        <th>Firstname</th>
+                <th>Firstname</th>
         <th>Surname</th>
         <th>Dateofbirth</th>
         <th>Feild</th>
@@ -15,8 +14,7 @@
         <tbody>
         @foreach($doctors as $doctors)
             <tr>
-                <td>{{ $doctors->Doctorid }}</td>
-            <td>{{ $doctors->firstname }}</td>
+                <td>{{ $doctors->firstname }}</td>
             <td>{{ $doctors->surname }}</td>
             <td>{{ $doctors->dateofbirth }}</td>
             <td>{{ $doctors->Feild }}</td>

@@ -1,9 +1,3 @@
-<!-- Doctorid Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('Doctorid', 'Doctorid:') !!}
-    {!! Form::number('Doctorid', null, ['class' => 'form-control']) !!}
-</div>
-
 <!-- Firstname Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('firstname', 'Firstname:') !!}
