@@ -4,12 +4,6 @@
     <p>{{ $nurses->Wardid }}</p>
 </div>
 
-<!-- Nurseid Field -->
-<div class="form-group">
-    {!! Form::label('Nurseid', 'Nurseid:') !!}
-    <p>{{ $nurses->Nurseid }}</p>
-</div>
-
 <!-- Firstname Field -->
 <div class="form-group">
     {!! Form::label('firstname', 'Firstname:') !!}

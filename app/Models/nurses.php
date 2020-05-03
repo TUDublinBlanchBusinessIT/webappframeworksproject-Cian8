@@ -7,11 +7,9 @@ use Illuminate\Database\Eloquent\Model as Model;
 /**
  * Class nurses
  * @package App\Models
- * @version May 2, 2020, 8:28 pm UTC
+ * @version May 2, 2020, 8:57 pm UTC
  *
- * @property \App\Models\Ward $wardid
  * @property integer $Wardid
- * @property integer $Nurseid
  * @property string $firstname
  * @property string $surname
  * @property string $dateofbirth
@@ -31,7 +29,6 @@ class nurses extends Model
 
     public $fillable = [
         'Wardid',
-        'Nurseid',
         'firstname',
         'surname',
         'dateofbirth',
@@ -63,11 +60,5 @@ class nurses extends Model
         
     ];
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     **/
-    public function wardid()
-    {
-        return $this->belongsTo(\App\Models\Ward::class, 'Wardid');
-    }
+    
 }

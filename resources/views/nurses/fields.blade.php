@@ -4,12 +4,6 @@
     {!! Form::number('Wardid', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Nurseid Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('Nurseid', 'Nurseid:') !!}
-    {!! Form::number('Nurseid', null, ['class' => 'form-control']) !!}
-</div>
-
 <!-- Firstname Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('firstname', 'Firstname:') !!}

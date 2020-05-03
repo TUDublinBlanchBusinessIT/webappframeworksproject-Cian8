@@ -8,7 +8,7 @@ use App\Repositories\BaseRepository;
 /**
  * Class nursesRepository
  * @package App\Repositories
- * @version May 2, 2020, 8:28 pm UTC
+ * @version May 2, 2020, 8:57 pm UTC
 */
 
 class nursesRepository extends BaseRepository
@@ -18,7 +18,6 @@ class nursesRepository extends BaseRepository
      */
     protected $fieldSearchable = [
         'Wardid',
-        'Nurseid',
         'firstname',
         'surname',
         'dateofbirth',

@@ -3,7 +3,6 @@
         <thead>
             <tr>
                 <th>Wardid</th>
-        <th>Nurseid</th>
         <th>Firstname</th>
         <th>Surname</th>
         <th>Dateofbirth</th>
@@ -16,7 +15,6 @@
         @foreach($nurses as $nurses)
             <tr>
                 <td>{{ $nurses->Wardid }}</td>
-            <td>{{ $nurses->Nurseid }}</td>
             <td>{{ $nurses->firstname }}</td>
             <td>{{ $nurses->surname }}</td>
             <td>{{ $nurses->dateofbirth }}</td>
