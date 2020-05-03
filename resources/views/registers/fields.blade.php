@@ -25,7 +25,7 @@
 @push('scripts')
     <script type="text/javascript">
         $('#dateofbirth').datetimepicker({
-            format: 'YYYY-MM-DD HH:mm:ss',
+            format: 'YYYY-MM-DD',
             useCurrent: false
         })
     </script>
@@ -56,7 +56,7 @@
 @push('scripts')
     <script type="text/javascript">
         $('#DateofRegistartion').datetimepicker({
-            format: 'YYYY-MM-DD HH:mm:ss',
+            format: 'YYYY-MM-DD',
             useCurrent: false
         })
     </script>
